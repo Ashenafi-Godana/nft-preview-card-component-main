@@ -1,0 +1,118 @@
+:root {
+    --clr-primary-soft-blue: hsl(215, 51%, 70%);
+    --clr-primary-cyan: hsl(178, 100%, 50%);
+
+    --clr-main-bg-very-dark-blue: hsl(217, 54%, 11%);
+    --clr-card-bg-very-dark-blue: hsl(216, 50%, 16%);
+    --clr-line-ver-dark-blue: hsl(215, 32%, 27%);
+    --clr-white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--clr-main-bg-very-dark-blue);
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--clr-card-bg-very-dark-blue);
+}
+
+.wrapper .img {
+    background: url(images/image-equilibrium.jpg);
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper .img:hover {
+    
+}
+
+h1 {
+    color: var(--clr-white);
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
+p,
+.info .right,
+.artist {
+    color: var(--clr-primary-soft-blue);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin: 10px 0;
+}
+
+svg {
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.info .left {
+    color: var(--clr-primary-cyan);
+    font-weight: 600;
+    vertical-align: top;
+    font-weight: 18px;
+}
+
+.info .right {
+    font-weight: 500;
+    vertical-align: top;
+    font-size: 18px;
+    margin: 0;
+}
+
+.divider {
+    border-bottom: 1px solid var(--clr-primary-soft-blue);
+    margin: 5px 0 20px 0;
+}
+
+.artist .artist-info {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.artist img {
+    width: 40px;
+    border: 1px solid var(--clr-white);
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline;
+}
+
+.artist .name {
+    color: var(--clr-white);
+    font-weight: 500;
+}
+
+.artist .name:hover,
+h1:hover {
+    color: var(--clr-primary-cyan);
+}

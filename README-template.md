@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/asheCurious/nft-preview-card-component-main/blob/main/README-template.md)
-- Live Site URL: [Add live site URL here](https://ashecurious.github.io/nft-preview-card-component-main/)
+- Solution URL: (https://github.com/asheCurious/nft-preview-card-component-main/blob/main/README-template.md)
+- Live Site URL: https://ashecurious.github.io/nft-preview-card-component-main/
 
 ## My process
 
